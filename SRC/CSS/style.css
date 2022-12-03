@@ -1,0 +1,407 @@
+:root{
+    font-size: 12px;
+}
+body{
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header .navbar{
+    background-image: url(../IMG/navbar.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 18px 0;
+    position: fixed;
+    min-width: 100%;
+    z-index: 1;
+}
+header .navbar .container .collapse .navbar-nav{
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    font-family: 'Poppins';
+    text-shadow: 0 0 10px #00000039;
+}
+/* End Header */
+
+/* Main */
+
+/* Content 1 */
+main .container-1{
+    height: 100vh;
+    min-width: 100%;
+}
+main .container-1 .part-left{
+    width: 55%;
+    height: 100%;
+}
+main .container-1 .part-left .text-content{
+    width: 450px;
+    height: 200px;
+}
+main .container-1 .part-left h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    font-size: 90px;
+    color: #000000;
+}
+main .container-1 .part-left p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-size: 1.2rem;
+    color: #000000;
+}
+main .container-1 .part-right{
+    width: 45%;
+    height: 100%;
+}
+main .container-1 .part-right .bg-content{
+    background-image: url(../IMG/main-1.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 350px;
+}
+
+/* Content 2 */
+main .container-2{
+    min-width: 100%;
+    height: 100vh;
+}
+main .container-2 .part-top-1{
+    height: 60%;
+    width: 100%;
+    background-image: url(../IMG/main-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main .container-2 .part-top-1 .bags{
+    position: relative;
+    top: 80px;
+    width: 75%;
+    height: 55%;
+}
+main .container-2 .part-top-1 .bags .bag-left{
+    width: 40%;
+    height: 100%;
+}
+main .container-2 .part-top-1 .bags .bag-left h2{
+    font-size: 48px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    color: #000000;
+    font-style: italic;
+}
+main .container-2 .part-top-1 .bags .bag-right{
+    width: 50%;
+    height: 130%;
+}
+main .container-2 .part-top-1 .bags .bag-right .text{
+    height: 25%;
+    width: 100%;
+}
+main .container-2 .part-top-1 .bags .bag-right .text p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Poppins';
+    letter-spacing: 0.4px;
+    font-style: italic;
+    color: #000000;
+}
+main .container-2 .part-top-1 .bags .bag-right .cards{
+    height: 65%;
+    width: 100%;
+}
+main .container-2 .part-top-1 .bags .bag-right .cards .card-1{
+    height: 160px;
+    width: 130px;
+    border-radius: 12px;
+    background-color: #5AB1D0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+main .container-2 .part-top-1 .bags .bag-right .cards .card-1 .bg-card{
+    position: relative;
+    top: -10px;
+    background-image: url(../IMG/card-1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 130%;
+    height: 100%;
+}
+main .container-2 .part-top-1 .bags .bag-right .cards .card-1 p{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Poppins';
+    letter-spacing: 0.5px;
+    font-style: normal;
+    color: #ffffff;
+    text-shadow: 0 0 10px #00000039;
+}
+main .container-2 .part-bottom-1{
+    height: 40%;
+    width: 80%;
+}
+main .container-2 .part-bottom-1 .part-right p{
+    margin: 0;
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.5px;
+}
+main .container-2 .part-bottom-1 .part-right h2{
+    font-size: 3rem;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    margin: 0;
+    padding: 5px 0;
+}
+
+/* content 3 */
+main .container-3{
+    width: 100%;
+    height: 100Vh;
+}
+main .container-3 .part-top-2{
+    width: 100%;
+    height: 50%;
+    background-image: url(../IMG/main-3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main .container-3 .part-top-2 .content-main{
+    width: 80%;
+    height: 100%;
+}
+main .container-3 .part-top-2 .content-main .text-title{
+    width: 100%;
+}
+main .container-3 .part-top-2 .content-main .text-title h2{
+    font-size: 55px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Poppins';
+    color: #FFB800;
+    font-style: normal;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+main .container-3 .part-top-2 .content-main .text-desc{
+    width: 100%;
+}
+main .container-3 .part-top-2 .content-main .text-desc p{
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    color: #696969;
+    margin-bottom: 20px;
+}
+main .container-3 .part-top-2 .content-main .time{
+    width: 100%;
+}
+main .container-3 .part-top-2 .content-main .time h2{
+    font-size: 80px;
+    font-weight: 400;
+    color: #2F2E41;
+    font-family: 'Poppins';
+    letter-spacing: 0.5px;
+    width: 100px;
+    text-align: center;
+}
+main .container-3 .part-top-2 .content-main .time .pad{
+    width: 40px;
+    text-align: center;
+}
+main .container-3 .part-top-2 .content-main .text-time{
+    width: 100%;
+}
+main .container-3 .part-top-2 .content-main .text-time .text-item{
+    width: 45%;
+}
+main .container-3 .part-top-2 .content-main .text-time p{
+    width: 70px;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-style: italic;
+    color: #696969;
+    letter-spacing: 0.5px;
+}
+
+main .container-3 .part-bottom-2{
+    width: 100%;
+    height: 50%;
+}
+main .container-3 .part-bottom-2 .parts{
+    width: 80%;
+}
+main .container-3 .part-bottom-2 .parts .part{
+    width: 200px;
+    height: 100%;
+}
+main .container-3 .part-bottom-2 .parts .part h2{
+    font-size: 70px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-style: normal;
+    color: #000000;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+main .container-3 .part-bottom-2 .parts .part p{
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: 500;
+    color: #696969;
+    font-style: normal;
+    letter-spacing: 0.4px;
+    text-decoration: line-through #FF0000;
+}
+main .container-3 .part-bottom-2 .parts .part button{
+    font-family: 'Poppins';
+    font-size: 35px;
+    font-weight: 700;
+    color: #FCFCFC;
+    padding: 20px 0;
+    width: 220px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+/* Content 4 */
+main .container-4{
+    background-color: #C2CDD1;
+    width: 100%;
+    height: 100vh;
+}
+main .container-4 .cards{
+    width: 80%;
+}
+main .container-4 .cards .card-item .card-1{
+    background-color: #FCFCFC;
+    height: 100%;
+    width: 280px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+main .container-4 .cards .card-item .card-1 button{
+    width: 310px;
+    border-radius: 20px;
+    padding: 5px 0;
+    font-family: 'Poppins';
+    font-size: 2.2rem;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.5px;
+    color: #FCFCFC;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.111);
+}
+main .container-4 .cards .card-item .card-1 h5{
+    font-size: 1.3rem;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-style: italic;
+    color: #FFB800;
+    letter-spacing: 0.4px;
+}
+main .container-4 .cards .card-item .card-1 p{
+    font-size: 1.1rem;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-style: italic;
+    color: #000000;
+    letter-spacing: 0.4px;
+    line-height: 200%;
+}
+main .container-4 .cards .card-item .card-1 ul li{
+    font-size: 1.1rem;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+    line-height: 200%;
+}
+main .container-4 .cards .card-item button{
+    width: 200px;
+    font-size: 1.1rem;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #4C95AF;
+    font-style: normal;
+    border-radius: 15px;
+    letter-spacing: 0.4px;
+    box-shadow: 0px 4px 4px rgba(118, 255, 255, 0.25);
+    padding: 10px 0;
+}
+/* End Main */
+
+/* Footer */
+footer .bg{
+    background-image: url(../IMG/main-4.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer .bg .content{
+    width: 70%;
+    height: 90%;
+}
+footer .bg .content h2{
+    font-size: 50px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #3D3B3B;
+    letter-spacing: 0.5px;
+    padding: 30px 0;
+}
+footer .bg .content p{
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: #3D3B3B;
+    letter-spacing: 0.4px;
+    padding-bottom: 40px;
+}
+footer .bg .content button{
+    padding: 10px 30px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 2rem;
+    border-radius: 13px;
+    color: #3AC037;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+    margin-bottom: 50px;
+}
+footer .bg .content button .icon{
+    width: 34px;
+    height: 30px;
+    background-image: url(../IMG/icon-1.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer .bg .content .line{
+    width: 100%;
+    height: 1px;
+    background-color: #3D3B3B;
+}
+/* End Footer */
